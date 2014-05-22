@@ -28,7 +28,7 @@ public class HighScoreServiceTest {
 	@Test
 	public void testGetHighScores() {
 
-		HighScoreServiceStub stub = null;
+		HighScoreServiceStub stub = nul;
 		try {
 			stub = new HighScoreServiceStub();
 		} catch (AxisFault e) {
